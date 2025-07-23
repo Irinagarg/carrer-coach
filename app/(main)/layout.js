@@ -7,7 +7,7 @@ import Header from "@/components/Header";
 import { ThemeProvider } from "@/components/theme-provider";
 import { dark } from "@clerk/themes";
 
-const inter = Inter({ subsets: ["latin"] });U
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "AI Career Coach",
