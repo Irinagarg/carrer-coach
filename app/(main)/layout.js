@@ -3,11 +3,11 @@
 
 import { ClerkProvider } from "@clerk/nextjs";
 import { Toaster } from "sonner";
-import Header from "@/components/header";
+import Header from "@/components/Header";
 import { ThemeProvider } from "@/components/theme-provider";
 import { dark } from "@clerk/themes";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ subsets: ["latin"] });U
 
 export const metadata = {
   title: "AI Career Coach",
