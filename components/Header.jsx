@@ -17,7 +17,7 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import Image from "next/image";
-import { checkUser } from "@/lib/checkUser";
+import { checkUser } from "@/lib/checkuser";
 
 export default async function Header() {
   await checkUser();
